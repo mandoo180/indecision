@@ -1,0 +1,10 @@
+sudo npm i -g yarn
+sudo yarn global add live-server
+sudo npm i -g live-server
+sudo yarn global add babel-cli
+sudo npm i -g babel-cli
+babel --version
+yarn init
+yarn babel-preset-react babel-preset-env
+// in root directory
+babel src/app.js --out-file=public/srcipts/app.js --presets=env,react --watch
